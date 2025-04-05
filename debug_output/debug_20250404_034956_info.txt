@@ -1,0 +1,23 @@
+CryFold 调试信息
+时间: 2025-04-04 03:49:56
+
+输入数据:
+  edge_logits: 形状 (5740, 20, 2)
+  edge_index: 形状 (5740, 20)
+  existence_mask: 形状 (5740,)
+  local_confidence: 形状 (5740,)
+  counts: 形状 (5740,)
+
+输出数据:
+  pred_positions: 形状 (5740, 3)
+  pred_torsions: 形状 (5740, 83, 2)
+  pred_affines: 形状 (5740, 3, 4)
+  aa_logits: 形状 (5740, 20)
+  local_confidence: 形状 (5740,)
+  existence_mask: 形状 (5740,)
+    存在掩码总和: 18607.05078125 (非零元素数量)
+  raw_aa_entropy: 形状 (5740,)
+  normalized_aa_entropy: 形状 (5740,)
+  edge_logits: 形状 (5740, 20, 2)
+    边缘逻辑值范围: [3.861388449877268e-06, 0.8923035264015198]
+  edge_index: 形状 (5740, 20)
